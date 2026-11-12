@@ -3,7 +3,7 @@ import 'package:resepku/models/recipe.dart';
   
 class FavoriteProvider extends ChangeNotifier { 
   final List<Recipe> _items = []; 
-  
+
   // Dari luar hanya boleh dibaca, tidak boleh diubah langsung 
   List<Recipe> get items => List.unmodifiable(_items); 
   int get count => _items.length; 

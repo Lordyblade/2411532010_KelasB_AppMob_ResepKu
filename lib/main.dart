@@ -35,12 +35,14 @@ class ResepKuApp extends StatelessWidget {
       // Tema terang
       theme: ThemeData(
         colorSchemeSeed: Colors.deepOrange,
+        fontFamily: 'Poppins',
       ),
 
       // Tema gelap
       darkTheme: ThemeData(
         colorSchemeSeed: Colors.deepOrange,
         brightness: Brightness.dark,
+        fontFamily: 'Poppins',
       ),
 
       // Mengikuti tema dari ThemeProvider
